@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+}
+#main-box {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  #child-1 /*box on left*/{
+    width: 20%;
+    height: 50%;
+    /* border: 1px solid black; */
+    background-color:white;
+    margin: 2px;
+  }
+
+  #child-2/*box on right*/{
+      width: 20%;
+      height: 65%;
+      border: 1px solid black;
+      background-color: white;
+      margin: 2px;
+      align-items: center;
+      padding: 0px;
+  }
+  #facebook-button {
+      text-align: center;
+      background-color: rgb(43, 147, 238);
+      width: 90%;
+  }
+
+  h1 {
+      text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  h4 {
+      text-align: center;
+  }
+
+  h5 {
+    text-align: center;
+  }
+
+  h6 {
+      text-align: center;
+  }
+
+ #list {
+    list-style-type: none;
+  }
+#button-parent{
+    display:flex;
+    justify-content: center;
+}
+  #sign-up-button{
+    background-color: rgb(43, 147, 238);
+    position: center;
+    width: 90%;
+  }
+
+  #facebook-parent{
+      display:flex;
+      justify-content: center;
+  }
+
+  #getapp{
+    margin: 0;
+  }
+
+  #need-account/* middle box right*/{
+      border: 1px solid black;
+      height: 20px;
+      width: 200px;
+      right: -20px;
+      text-align: center;
+      margin-top: 0px;
+      padding: 0px;
+
+  }
+
+img{
+    border-radius: 10%;
+    width: 100%;
+    height: 100%
+}
+
+#box{
+  display:flex;
+  align-content: center;
+}
+
+
+#lastimg{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: stretch;
+  justify-content: center;
+  background-color: white;
+  height: 36px;
+  width: 100%;
+}
+
+#footer {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10px;
+  
+}
+
+#copy {
+  height: 15px;
+  width: 100px;
+}
